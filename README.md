@@ -10,6 +10,8 @@ The goal is to build a structured data warehouse that supports efficient data qu
 
 The project follows a Medallion-style data architecture consisting of three layers:
 
+<img width="1125" height="585" alt="data_architecturee" src="https://github.com/user-attachments/assets/20a71cca-b94d-46a0-adb6-5e1be2aeb23c" />
+
 * **Bronze Layer:** Stores raw data from source systems.
 * **Silver Layer:** Cleans, validates, and transforms raw data.
 * **Gold Layer:** Contains business-ready data structured for analytical queries and reporting.
@@ -60,10 +62,6 @@ sql-data-warehouse/
 ## 📊 Data Modeling
 
 The Gold layer will use a star schema consisting of:
-
-<img width="1125" height="585" alt="data_architecturee" src="https://github.com/user-attachments/assets/20a71cca-b94d-46a0-adb6-5e1be2aeb23c" />
-
-
 
 * **Fact Tables:** Store measurable business events, such as sales, transactions, or orders.
 * **Dimension Tables:** Store descriptive attributes, such as customers, products, dates, and locations.
