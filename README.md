@@ -61,6 +61,10 @@ sql-data-warehouse/
 
 The Gold layer will use a star schema consisting of:
 
+<img width="1125" height="585" alt="data_architecturee" src="https://github.com/user-attachments/assets/20a71cca-b94d-46a0-adb6-5e1be2aeb23c" />
+
+
+
 * **Fact Tables:** Store measurable business events, such as sales, transactions, or orders.
 * **Dimension Tables:** Store descriptive attributes, such as customers, products, dates, and locations.
 
